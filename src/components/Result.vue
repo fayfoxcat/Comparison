@@ -14,10 +14,8 @@ export default defineComponent({
 
 <style scoped>
 .result-component {
-  width: 500px;
+  width: 1024px;
   height: 500px;
-  margin-left: 2.5%;
-  margin-top: 30px;
   border: 1px solid green;
 }
 </style>
