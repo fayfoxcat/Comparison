@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
@@ -25,14 +26,14 @@ export default {
 
 <style scoped>
 .max_box {
-  position: absolute;
   width: 100%;
   height:1100px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
   border: 1px solid blue;
-  margin-top: 0;
-  margin-right: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 </style>
