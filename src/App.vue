@@ -32,5 +32,7 @@ export default {
   flex-wrap: wrap;
   align-content: space-between;
   border: 1px solid blue;
+  margin-top: 0;
+  margin-right: 0;
 }
 </style>
