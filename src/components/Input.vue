@@ -1,7 +1,8 @@
 
 <template>
   <div class="input-component">
-    <!-- 组件的内容 -->
+    <Original/>
+    <Target/>
   </div>
 </template>
 
@@ -21,7 +22,7 @@ export default defineComponent({
 
 <style scoped>
 .input-component {
-  width: 1024px;
+  width: 100%;
   height: 500px;
   border: 1px solid goldenrod;
 }

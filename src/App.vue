@@ -3,8 +3,8 @@
 
 <template>
   <div class="max_box">
-<!--    <Input/>-->
-<!--    <Result/>-->
+    <Input/>
+    <Result/>
   </div>
 
 </template>
@@ -25,9 +25,12 @@ export default {
 
 <style scoped>
 .max_box {
-  width: 180vh;
-  height:500px;
-  margin: 0;
-  border: 1px solid black;
+  position: absolute;
+  width: 100%;
+  height:1100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  border: 1px solid blue;
 }
 </style>

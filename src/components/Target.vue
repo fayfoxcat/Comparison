@@ -15,7 +15,7 @@ export default defineComponent({
 <style scoped>
 .target-component {
   width: 45%;
-  height: 500px;
+  height: 430px;
   border: 1px solid red;
   position: absolute;
   display: flex;
